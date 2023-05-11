@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+
+ 
+
+}
+
+.containerTitulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+.containerTitulo h1{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.containerSelectCoin{
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+.containerMoeda{
+  display: flex;
+  justify-content: center;
+
+
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.moedaSVG{
+  margin: 0 10PX;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+ 
+}
+
+input[type=number]{
+  text-align: center;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  outline: none;
+  width: 110px;
+}
+
+input.Real:focus{
+border-color: #00ff88;
+}
+
+input.Real{
+  color: #146c43;
+  border-color: #146c43;
+  }
+
+input.Moeda:focus{
+  border-color: #fd0000;
+  }
+
+input.Moeda{
+  border-color: rgb(87, 23, 23);
+  color: rgb(87, 23, 23);
+  margin-right: 5px;
+  }
+
+.flagUSD{
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+  margin-left: 30%;
+  background-color: none;
+  background-image: url(flags/usa.png);
+  background-size: contain;
+}
+
+
+.flagEUR{
+  width: 23px;
+  height: 23px;
+  margin-top: 3px;
+  margin-left: 31%;
+  background-color: none;
+  background-image: url(flags/eur.png);
+  background-size: contain;
+}
+
+
+.flagGBP{
+  width: 23px;
+  height: 23px;
+  margin-top: 3px;
+  margin-left: 31%;
+  background-color: none;
+  background-image: url(flags/GBP.png);
+  background-size: contain;
+}
+
+.flagJPY{
+  width: 23px;
+  height: 23px;
+  margin-top: 3px;
+  margin-left: 36%;
+  background-color: none;
+  background-image: url(flags/JPY.png);
+  background-size: contain;
+ 
+}
+
+.flagCHF{
+  width: 23px;
+  height: 23px;
+  margin-top: 3px;
+  margin-left: 31%;
+  background-color: none;
+  background-image: url(flags/CHF.png);
+  background-size: contain;
+}
+
+.flagCAD{
+  width: 23px;
+  height: 23px;
+  margin-top: 3px;
+  margin-left: 30%;
+  background-color: none;
+  background-image: url(flags/CAD.png);
+  background-size: contain;
+}
+
+.flagAUD{
+  width: 23px;
+  height: 23px;
+  margin-top: 3px;
+  margin-left: 30%;
+  background-color: none;
+  background-image: url(flags/AUD.png);
+  background-size: contain;
+}
+.containerReal{
+  display: flex;
+  justify-content: center;
+}
+
+
+.BRL{
+  width: 68.8px;
+  height: 38px;
+  background-color: #146c43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-left: 2px;
+}
+
+.BRL P{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1em;
+  color: white;
+}
+
+#dropdown-basic{
+  background-color: rgb(87, 23, 23);
+  border-color: rgb(87, 23, 23);
+  
+}
+
+.seta{
+  margin: 15px 0px 15px 70px;
+}
