@@ -6,16 +6,8 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import {TbArrowsDownUp } from 'react-icons/tb'
 import { RiCoinsLine } from 'react-icons/ri'
 import {GiTwoCoins} from 'react-icons/gi'
-function App() {
-   /* const [usd, setUsd] = useState("")
-  useEffect(() =>{
-    axios.get(`https://economia.awesomeapi.com.br/json/last/USD-BRL`)
-    .then(response =>{
-      const usd = response.data[`USDBRL`].bid
-      setUsd(usd)
-    })
 
-  }, [])*/
+function App() {
 
   const [moeda, setMoeda] = useState("USD") //Escolher moeda
   const [coins, setCoins] = useState("0") //Definir a quantiade em R$ para converter
