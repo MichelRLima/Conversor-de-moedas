@@ -2,13 +2,12 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DolarCotacao from './DolarCotacao';
 import Dropdown from 'react-bootstrap/Dropdown';
 import {TbArrowsDownUp } from 'react-icons/tb'
 import { RiCoinsLine } from 'react-icons/ri'
 import {GiTwoCoins} from 'react-icons/gi'
 function App() {
-    const [usd, setUsd] = useState("")
+   /* const [usd, setUsd] = useState("")
   useEffect(() =>{
     axios.get(`https://economia.awesomeapi.com.br/json/last/USD-BRL`)
     .then(response =>{
@@ -16,12 +15,12 @@ function App() {
       setUsd(usd)
     })
 
-  }, [])
+  }, [])*/
 
   const [moeda, setMoeda] = useState("USD") //Escolher moeda
   const [coins, setCoins] = useState("0") //Definir a quantiade em R$ para converter
   const [valorMoeda, setValorMoeda] = useState("") //Valor da moeda selecionada
-  const [conversao, setConversao] = useState("0") //mostrar valor do conversai de real para a moeda
+
   const [real, setReal] = useState("0")
 
 
