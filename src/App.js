@@ -245,7 +245,7 @@ function App() {
   useEffect(() => {
     const intervalId = setInterval(updateStartIndex, 3000);
     return () => clearInterval(intervalId);
-  }, []);
+  },);
 
 /****************************************************************** */
   return (
