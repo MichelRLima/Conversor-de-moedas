@@ -106,7 +106,7 @@ input.Moeda{
   margin-top: 3px;
   margin-left: 31%;
   background-color: none;
-  background-image: url(flags/USA.png);
+  background-image: url(flags/US.png);
   background-size: contain;
   
 }
@@ -114,7 +114,7 @@ input.Moeda{
 .slideBandeiraUSA{ 
   height: 20px;
   height: 40px;
-  background-image: url(flags/USA.png);
+  background-image: url(flags/US.png);
   background-repeat: no-repeat;
   margin: 0 auto;
   background-position: center;
