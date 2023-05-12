@@ -95,6 +95,10 @@ input.Moeda{
     border-radius: 5px;
   }
 
+  .divMoeda h4{
+    margin-top: 12px;
+  }
+
   .slideCotacao{
     margin-top: 20px;
     color: #146c43;
