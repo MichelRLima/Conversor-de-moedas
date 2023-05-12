@@ -235,7 +235,7 @@ function App() {
     <p>Yuan chinês</p>
 
     <div className='slideBandeiraCNY'></div>
-    <h4 className='slideCotacao'>R$1 = ${CNY}</h4></div>
+    <h4 className='slideCotacao'>R$1 = ${CNY}</h4></div> 
   ];
 
   const updateStartIndex = () => {
