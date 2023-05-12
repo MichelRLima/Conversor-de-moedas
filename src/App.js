@@ -296,7 +296,7 @@ function App() {
       
     </div>
 
-    <h3 className='TituloData'>Contação atual</h3>
+    <h3 className='TituloData'>Cotação atual</h3>
     <p>{dataFormatada}</p>
     <div>
     <Slide startIndex={startIndex} divs={divsMoeda} />
