@@ -1,0 +1,14 @@
+.ContainerSlide{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+
+
+@media screen and (max-width: 650px) {
+    .ContainerSlide{
+        display: block;
+        margin-top: 50px;
+    }
+}

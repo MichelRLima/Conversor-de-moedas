@@ -79,14 +79,45 @@ input.Moeda{
   margin-right: 5px;
   }
 
+  span{
+    width: 31px;
+    height: 25px;
+    text-align: center;
+  }
+
+
+  .divMoeda{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto 50px;
+    border: 1px solid #146c43;
+    border-radius: 5px;
+  }
+
+  .slideCotacao{
+    margin-top: 20px;
+    color: #146c43;
+  }
+  
 .flagUSD{
   width: 20px;
   height: 20px;
   margin-top: 3px;
-  margin-left: 30%;
+  margin-left: 31%;
   background-color: none;
-  background-image: url(flags/usa.png);
+  background-image: url(flags/USA.png);
   background-size: contain;
+  
+}
+
+.slideBandeiraUSA{
+  height: 20px;
+  height: 40px;
+  background-image: url(flags/USA.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center;
 }
 
 
@@ -98,8 +129,16 @@ input.Moeda{
   background-color: none;
   background-image: url(flags/eur.png);
   background-size: contain;
+  
 }
-
+.slideBandeiraEUR{
+  height: 20px;
+  height: 40px;
+  background-image: url(flags/eur.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center;
+}
 
 .flagGBP{
   width: 23px;
@@ -111,15 +150,33 @@ input.Moeda{
   background-size: contain;
 }
 
+.slideBandeiraGBP{
+  height: 20px;
+  height: 40px;
+  background-image: url(flags/GBP.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center;
+}
+
 .flagJPY{
   width: 23px;
   height: 23px;
   margin-top: 3px;
-  margin-left: 36%;
+  margin-left: 31%;
   background-color: none;
   background-image: url(flags/JPY.png);
-  background-size: contain;
+  background-size: cover;
  
+}
+
+.slideBandeiraJPY{
+  height: 20px;
+  height: 40px;
+  background-image: url(flags/JPY.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center;
 }
 
 .flagCHF{
@@ -132,28 +189,75 @@ input.Moeda{
   background-size: contain;
 }
 
+.slideBandeiraCHF{
+  height: 20px;
+  height: 40px;
+  background-image: url(flags/CHF.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center;
+}
+
 .flagCAD{
   width: 23px;
   height: 23px;
   margin-top: 3px;
-  margin-left: 30%;
+  margin-left: 31%;
   background-color: none;
   background-image: url(flags/CAD.png);
   background-size: contain;
+}
+
+.slideBandeiraCAD{
+  height: 20px;
+  height: 40px;
+  background-image: url(flags/CAD.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center;
 }
 
 .flagAUD{
   width: 23px;
   height: 23px;
   margin-top: 3px;
-  margin-left: 30%;
+  margin-left: 31%;
   background-color: none;
   background-image: url(flags/AUD.png);
   background-size: contain;
 }
+
+.slideBandeiraAUD{
+  height: 20px;
+  height: 40px;
+  background-image: url(flags/AUD.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center;
+}
+
+.flagCNY{
+  width: 23px;
+  height: 23px;
+  margin-top: 3px;
+  margin-left: 31%;
+  background-color: none;
+  background-image: url(flags/CNY.png);
+  background-size: contain;
+}
+
+.slideBandeiraCNY{
+  height: 20px;
+  height: 40px;
+  background-image: url(flags/CNY.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center;
+}
 .containerReal{
   display: flex;
   justify-content: center;
+
 }
 
 
@@ -183,4 +287,20 @@ input.Moeda{
 
 .seta{
   margin: 15px 0px 15px 70px;
+}
+
+.TituloData{
+  margin-top: 40px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@media screen and (max-width: 650px){
+  .divMoeda{
+    width: 70%;
+    margin: 20px auto;
+    height: 200px;
+  }
 }
