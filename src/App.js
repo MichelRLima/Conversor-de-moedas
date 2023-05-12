@@ -187,55 +187,55 @@ function App() {
       <p>Dolár</p>
       
       <div className='slideBandeiraUSA'></div>
-      <h4 className='slideCotacao'>R$1 = ${USD}</h4></div>,
+      <h4 className='slideCotacao'>$1 = R${USD}</h4></div>,
 
     <div className='divMoeda'>
       <h4>EUR</h4>
       <p>Euro</p>
 
       <div className='slideBandeiraEUR'></div>
-      <h4 className='slideCotacao'>R$1 = €{EUR}</h4></div>,
+      <h4 className='slideCotacao'>€1 = R${EUR}</h4></div>,
 
     <div className='divMoeda'>
       <h4>GBP</h4>
       <p>Libra Esterlina</p>
 
       <div className='slideBandeiraGBP'></div>
-      <h4 className='slideCotacao'>R$1 = ${GBP}</h4></div>,
+      <h4 className='slideCotacao'>$1 = R${GBP}</h4></div>,
       
     <div className='divMoeda'>
     <h4>JPY</h4>
     <p>Iene</p>
 
     <div className='slideBandeiraJPY'></div>
-    <h4 className='slideCotacao'>R$1 = ${JPY}</h4></div>,
+    <h4 className='slideCotacao'>$1 = R${JPY}</h4></div>,
 
     <div className='divMoeda'>
     <h4>CHF</h4>
     <p>Franco suiço</p>
 
     <div className='slideBandeiraCHF'></div>
-    <h4 className='slideCotacao'>R$1 = ${CHF}</h4></div>,
+    <h4 className='slideCotacao'>$1 = R${CHF}</h4></div>,
 
     <div className='divMoeda'>
     <h4>CAD</h4>
     <p>Dolár Canadence</p>
 
     <div className='slideBandeiraCAD'></div>
-    <h4 className='slideCotacao'>R$1 = ${CAD}</h4></div>,
+    <h4 className='slideCotacao'>$1 = R${CAD}</h4></div>,
 
     <div className='divMoeda'>
     <h4>AUD</h4>
     <p>Dólar australiano</p>
 
     <div className='slideBandeiraAUD'></div>
-    <h4 className='slideCotacao'>R$1 = ${AUD}</h4></div>,
+    <h4 className='slideCotacao'>$1 = R${AUD}</h4></div>,
     <div className='divMoeda'>
     <h4>CNY</h4>
     <p>Yuan chinês</p>
 
     <div className='slideBandeiraCNY'></div>
-    <h4 className='slideCotacao'>R$1 = ${CNY}</h4></div> 
+    <h4 className='slideCotacao'>$1 = R${CNY}</h4></div> 
   ];
 
   const updateStartIndex = () => {
