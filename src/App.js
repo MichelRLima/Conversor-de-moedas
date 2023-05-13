@@ -13,9 +13,9 @@ function App() {
   const dataFormatada = format(dataAtual, 'dd/MM/yyyy');
 
   const [moeda, setMoeda] = useState("USD") //Escolher moeda
-  const [coins, setCoins] = useState("0") //Definir a quantiade de moedas para converter
+  const [coins, setCoins] = useState("") //Definir a quantiade de moedas para converter
   const [valorMoeda, setValorMoeda] = useState("") //Valor da moeda selecionada
-  const [real, setReal] = useState("0") //quantidade em real
+  const [real, setReal] = useState("") //quantidade em real
 
   /*******sessao para cotaçao de cada moeda ************/
   const [USD, setUSD]=useState("")
@@ -276,7 +276,7 @@ function App() {
       </Dropdown.Menu>
     </Dropdown>
 
-      <input className='Moeda' type='number' value={coins} onChange={handleInputMoeda}></input>
+      <input placeholder='0' className='Moeda' type='number' value={coins} onChange={handleInputMoeda}></input>
       
 
     </div>
@@ -284,11 +284,12 @@ function App() {
     <TbArrowsDownUp className='seta' size={32}/>
 
     <br/>
+    
     <div className='containerReal'>
 
       <div className='BRL'><p>BRL</p></div>
 
-    <input className='Real' type='number' value={real} onChange={handleInputReal}></input>
+    <input placeholder='0' className='Real' type='number' value={real} onChange={handleInputReal}></input>
     </div>
    
 
